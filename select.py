@@ -14,15 +14,11 @@ b=a.find("<body")
 if b<0:
     b=a.find("<BODY")
 a=a[b:]
-b=a.find("<table")
-if b<0:
-    b=a.find("<TABLE")
-a=a[b:]
-b=a.find("</table")
-if b<0:
-    b=a.find("</TABLE")
+b=a.find("00h through 0fh are CGA.")
 a=a[b:]
 
+b=a.find("See also")
+a=a[:b]
 a=a.replace("\n","")
 a=a.replace("\r","")
 a=a.replace("<tr","\n<")
