@@ -1,2 +1,1 @@
-# ide.c.auto.compleat
-ide id simple c ide.c.auto.compleat
+load int 10 h function
